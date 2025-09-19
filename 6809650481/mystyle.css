@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+    font-size: 80px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+.buy-button {
+    background-color: #e60023;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #cc001f;
+}
+.manutd-font {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    color: black;
+    
+}
+.poster{
+    background-color: #e60023;
+    height: auto;
+    width: auto;
+    padding: 10px 15px;
+}
+.about{
+    color: white;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #111;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 1000%;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+section {
+    padding: 20px 20px;
+    margin-top: 60px;
+    
+}
+.hight{
+    min-height: 100vh;
+}
+.no-fixed{
+    width: 600px;
+    height: initial;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
